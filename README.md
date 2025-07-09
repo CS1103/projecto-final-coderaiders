@@ -60,7 +60,7 @@
 
 ### 1. Investigación teórica
 
-* **Objetivo**: Explorar fundamentos y arquitecturas de redes neuronales.
+* **Objetivo**: Explorar fundamentos y arquitecturas de redes neuronales. 
 * **Contenido de ejemplo**:
 
   1. Historia y evolución de las NNs.
