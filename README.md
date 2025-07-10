@@ -32,7 +32,7 @@
   * Alumno D – 209900004 (Pruebas y benchmarking)
   * Alumno E – Cabanillas Solis, Joseph Jossemy (Documentación y demo)
 
-> *Nota: Reemplazar nombres y roles reales.*
+
 
 ---
 
@@ -54,17 +54,33 @@
    make
    ```
 
-> *Ejemplo de repositorio y comandos, ajustar según proyecto.*
 
 ---
 
 ### 1. Investigación teórica
 
-* **Objetivo**: Explorar fundamentos y arquitecturas de redes neuronales. 
+* **Objetivo**: Explorar fundamentos y arquitecturas de redes neuronales a través del estudio de múltiples modelos y conceptos principales.
 * **Contenido de ejemplo**:
 
   1. Historia y evolución de las NNs.
+
+  
+     *1943: McCulloch y Pitts crean el primer modelo de neurona artificial.
+
+
+     *1958: Rosenblatt presenta el perceptrón, pero es limitado (no resuelve XOR).
+
+
+     *1986: Se redescubre el algoritmo de retropropagación, permitiendo entrenar redes multicapa.
+
+
+     *2010s: Surgen las redes profundas (deep learning), impulsadas por grandes datos y GPUs.
+
+
+     *Hoy: Las NNs se aplican en visión, lenguaje, salud, juegos, etc.
+
   2. Principales arquitecturas: MLP, CNN, RNN.
+
      **MLP (Multilayer Perceptron)**:
      Redes con varias capas densas, útiles en tareas generales de clasificación y regresión.
 
@@ -135,13 +151,13 @@ pong_ai/
   * Test de función de activación ReLU.
   * Test de convergencia en dataset de ejemplo.
 
-> *Personalizar rutas, comandos y casos reales.*
+
 
 ---
 
 ### 3. Ejecución
 
-> **Demo de ejemplo**:
+> **Demo de ejemplo**:  aqui pones el video del demo
 > Pasos:
 >
 > 1. Preparar datos de entrenamiento (formato CSV).
@@ -178,21 +194,22 @@ pong_ai/
 | Pruebas y benchmarking    | Alumno D | Generación de métricas    |
 | Documentación y demo      | Alumno E | Tutorial y video demo     |
 
-> *Actualizar con tareas y nombres reales.*
-
 ---
 
 ### 6. Conclusiones
 
 El proceso de propagación hacia adelante (forward pass) y retropropagación (backward pass) permite ajustar los pesos y sesgos de la red para optimizar su rendimiento.
+
 Dividir el proyecto en módulos independientes es importante para garantizar un código escalable y fácil de mantener. Sin embargo, podríamos extender el código mediante patrones como Dependency Injection para desacoplar más cada capa.
 
 ---
 
 ### 7. Bibliografía
 
-Blog, G. (2020, 5 julio). The Evolution and Core Concepts of Deep Learning & Neural Networks. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2016/08/evolution-core-concepts-deep-learning-neural-networks
-David, D. S. (2024). Aplicación de deep learning para predicción de índices bursátiles extranjeros usando modelos multivariados recurrentes y convolucionales con mecanismos de atención. repositorio.uchile.cl. https://doi.org/10.58011/nymx-3240
+- Blog, G. (2020, 5 julio). The Evolution and Core Concepts of Deep Learning & Neural Networks. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2016/08/evolution-core-concepts-deep-learning-neural-networks
+
+   
+- David, D. S. (2024). Aplicación de deep learning para predicción de índices bursátiles extranjeros usando modelos multivariados recurrentes y convolucionales con mecanismos de atención. repositorio.uchile.cl. https://doi.org/10.58011/nymx-3240
 
 ---
 
