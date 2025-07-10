@@ -96,36 +96,34 @@
 * **Patrones de diseño**: ejemplo: Factory para capas, Strategy para optimizadores.
 * **Estructura de carpetas**:
 
-  ```
-  pong_ai/
-├── docs/
+```bash
+pong_ai/
+├── docs/                        # Documentación
 │   ├── BIBLIOGRAFIA
-│   └── README
+│   └── README.md
 ├── include/
-│   ├──
 │   └── utec/
-│   	  ├── agent/              # Agente Pong y Entorno de entrenamiento
-│   	  │	├── .idea/
-│   	  │	├── EnvGym.h
-│   	  │	└── PongAgent.h
-│   	  ├── algebra/
-│       │     └── Tensor.h
-│       └── nn/                  # Capas de Red Neuronal
-│            ├── activation.h
-│            ├── dense.h
-│            ├── layer.h
-│            ├── loss.h
-│            └──neural._network.h
+│       ├── agent/               # Agente Pong y entorno
+│       │   ├── EnvGym.h
+│       │   └── PongAgent.h
+│       ├── algebra/            # Operaciones algebraicas
+│       │   └── Tensor.h
+│       └── nn/                 # Red neuronal
+│           ├── activation.h
+│           ├── dense.h
+│           ├── layer.h
+│           ├── loss.h
+│           └── neural_network.h
 ├── src/                         # Implementación
 │   └── utec/
-│   	  └──agent/
-│            ├── EnvGym.cpp
-│            └──PongAgent.cpp
-├── tests/                      # Casos de prueba
-│     ├── test_agent_env.cpp
-│     ├── test_neural_network.cpp
-│     └──test_tensor.cpp
-└── main.cpp
+│       └── agent/
+│           ├── EnvGym.cpp
+│           └── PongAgent.cpp
+├── tests/                       # Casos de prueba
+│   ├── test_agent_env.cpp
+│   ├── test_neural_network.cpp
+│   └── test_tensor.cpp
+└── main.cpp                     # Punto de entrada
 
 
 #### 2.2 Manual de uso y casos de prueba
