@@ -1,0 +1,7 @@
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/pong_core.dir
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/test_tensor.dir
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/test_neural_network.dir
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/test_agent_env.dir
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/main_exec.dir
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Yadira/Downloads/pong_ai/cmake-build-debug/CMakeFiles/rebuild_cache.dir
