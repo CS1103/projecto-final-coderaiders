@@ -170,6 +170,7 @@ pong_ai/
 ### 3. Ejecución
 
 > **Video de la Demo**: https://youtu.be/0Ght-OM8mMA
+> 
 > Pasos:
 >
 > 1. Preparar datos de entrenamiento (formato CSV).
@@ -180,19 +181,23 @@ pong_ai/
 
 ### 4. Análisis del rendimiento
 
-* **Métricas de ejemplo**:
+* **Análisis del rendimiento**
 
-  * Iteraciones: 1000 épocas.
-  * Tiempo total de entrenamiento: 2m30s.
-  * Precisión final: 92.5%.
-* **Ventajas/Desventajas**:
+* Iteraciones: 1000 épocas
+* Tiempo de entrenamiento: 20 segundos
+* Precisión final: 70-80%
 
-  * * Código ligero y dependencias mínimas.
-  * – Sin paralelización, rendimiento limitado.
+* **Ventajas**: 
+* Buen rendimiento con datos reducidos (XOR)
+*Red ligera y fácil de adaptar, adecuada para el contexto de entrenamiento en Pong
+
+* **Desventajas**:
+* Entrenamientos con batch sizes altos generan tiempos de espera largos.
+* En el entrenamiento on-policy, el aprendizaje es muy dependiente de la calidad de la recompensa.
+  
 * **Mejoras futuras**:
-
-  * Uso de BLAS para multiplicaciones (Justificación).
-  * Paralelizar entrenamiento por lotes (Justificación).
+* Implementar operaciones matemáticas como BLAS o Eigen para mejorar el rendimiento en contextos con mayor volumen de datos o mayor cantidad de parámetros.
+* Implementar técnicas de regularización o exploración como epsilon-greedy para ejecutar un entrenamiento más generalizado y evitar así problemas de overfitting que empeoren la precisión del sistema al generalizar a datos nuevos dentro de contextos más complejos.
 
 ---
 
