@@ -77,13 +77,36 @@
 * **Estructura de carpetas (ejemplo)**:
 
   ```
-  proyecto-final/
-  ├── src/
-  │   ├── layers/
-  │   ├── optimizers/
-  │   └── main.cpp
-  ├── tests/
-  └── docs/
+  pong_ai/
+├── docs/
+│   ├── BIBLIOGRAFIA
+│   └── README
+├── include/
+│   ├──
+│   └── utec/
+│   	  ├── agent/              # Agente Pong y Entorno de entrenamiento
+│   	  │	├── .idea/
+│   	  │	├── EnvGym.h
+│   	  │	└── PongAgent.h
+│   	  ├── algebra/
+│       │     └── Tensor.h
+│       └── nn/                  # Capas de Red Neuronal
+│            ├── activation.h
+│            ├── dense.h
+│            ├── layer.h
+│            ├── loss.h
+│            └──neural._network.h
+├── src/                         # Implementación
+│   └── utec/
+│   	  └──agent/
+│            ├── EnvGym.cpp
+│            └──PongAgent.cpp
+├── tests/                      # Casos de prueba
+│     ├── test_agent_env.cpp
+│     ├── test_neural_network.cpp
+│     └──test_tensor.cpp
+└── main.cpp
+
   ```
 
 #### 2.2 Manual de uso y casos de prueba
