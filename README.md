@@ -26,11 +26,11 @@
 * **Grupo**: `group_3_custom_name`
 * **Integrantes**:
 
-  * Alumno A – Joseph Cabanillas (Responsable de investigación teórica)
+  * Alumno A – Benalcázar Ferro, José Ignacio (Responsable de investigación teórica)
   * Alumno B – 209900002 (Desarrollo de la arquitectura)
   * Alumno C – 209900003 (Implementación del modelo)
   * Alumno D – 209900004 (Pruebas y benchmarking)
-  * Alumno E – 209900005 (Documentación y demo)
+  * Alumno E – Cabanillas Solis, Joseph Jossemy (Documentación y demo)
 
 > *Nota: Reemplazar nombres y roles reales.*
 
@@ -47,7 +47,7 @@
 3. **Instalación**:
 
    ```bash
-   git clone https://github.com/EJEMPLO/proyecto-final.git
+   git clone https://github.com/ItzelLuci/projecto-final-coderaiders.git
    cd proyecto-final
    mkdir build && cd build
    cmake ..
@@ -65,7 +65,27 @@
 
   1. Historia y evolución de las NNs.
   2. Principales arquitecturas: MLP, CNN, RNN.
+     **MLP (Multilayer Perceptron)**:
+     Redes con varias capas densas, útiles en tareas generales de clasificación y regresión.
+
+
+    **CNN (Convolutional Neural Network)**:
+    Extraen características espaciales, ideales para imágenes y visión por computadora.
+
+
+    **RNN (Recurrent Neural Network)**:
+    Procesan datos secuenciales como texto o series de tiempo. LSTM y GRU mejoran su memoria.
+
   3. Algoritmos de entrenamiento: backpropagation, optimizadores.
+     **Backpropagation**:
+     Calcula cómo ajustar los pesos para reducir el error, usando derivadas y la regla de la cadena.
+
+
+    **Optimización**:
+    Algoritmos que usan esos gradientes para mejorar la red.
+     - SGD: Método básico
+     - Adam: El más usado por su rapidez y adaptabilidad
+     - Otros: Momentum, RMSprop
 
 ---
 
@@ -74,7 +94,7 @@
 #### 2.1 Arquitectura de la solución
 
 * **Patrones de diseño**: ejemplo: Factory para capas, Strategy para optimizadores.
-* **Estructura de carpetas (ejemplo)**:
+* **Estructura de carpetas**:
 
   ```
   pong_ai/
@@ -107,7 +127,6 @@
 │     └──test_tensor.cpp
 └── main.cpp
 
-  ```
 
 #### 2.2 Manual de uso y casos de prueba
 
