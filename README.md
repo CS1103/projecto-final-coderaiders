@@ -91,29 +91,29 @@ Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno 
 
   2. Principales arquitecturas: MLP, CNN, RNN.
 
-    **MLP (Multilayer Perceptron)**:
-    Redes con varias capas densas, útiles en tareas generales de clasificación y regresión.
+     **MLP (Multilayer Perceptron)**:
+     Redes con varias capas densas, útiles en tareas generales de clasificación y regresión.
 
 
-    **CNN (Convolutional Neural Network)**:
-    Extraen características espaciales, ideales para imágenes y visión por computadora.
+     **CNN (Convolutional Neural Network)**:
+     Extraen características espaciales, ideales para imágenes y visión por computadora.
 
 
-    **RNN (Recurrent Neural Network)**:
-    Procesan datos secuenciales como texto o series de tiempo. LSTM y GRU mejoran su memoria.
+     **RNN (Recurrent Neural Network)**:
+     Procesan datos secuenciales como texto o series de tiempo. LSTM y GRU mejoran su memoria.
 
   3. Algoritmos de entrenamiento: backpropagation, optimizadores.
 
 
-     **Backpropagation**:
-     Calcula cómo ajustar los pesos para reducir el error, usando derivadas y la regla de la cadena.
+      **Backpropagation**:
+      Calcula cómo ajustar los pesos para reducir el error, usando derivadas y la regla de la cadena.
 
 
-    **Optimización**:
-    Algoritmos que usan esos gradientes para mejorar la red.
-     - SGD: Método básico
-     - Adam: El más usado por su rapidez y adaptabilidad
-     - Otros: Momentum, RMSprop
+      **Optimización**:
+      Algoritmos que usan esos gradientes para mejorar la red.
+       - SGD: Método básico
+       - Adam: El más usado por su rapidez y adaptabilidad
+       - Otros: Momentum, RMSprop
 
 ---
 
@@ -169,7 +169,7 @@ pong_ai/
 
 ### 3. Ejecución
 
-> **Demo de ejemplo**:  aqui pones el video del demo
+> **Video de la Demo**: https://youtu.be/0Ght-OM8mMA
 > Pasos:
 >
 > 1. Preparar datos de entrenamiento (formato CSV).
