@@ -37,8 +37,8 @@ Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno 
 * **Integrantes**:
 
   * Alumno A – Benalcázar Ferro, José Ignacio (Responsable de investigación teórica)
-  * Alumno B – Luciani Dávila, Itzel Yadira Arellys (Desarrollo de la arquitectura y Pruebas )
-  * Alumno C – Cervantes Ordóñez, Jireh Eliseo (Implementación del modelo)
+  * Alumno B – Luciani Dávila, Itzel Yadira Arellys (Desarrollo de la arquitectura)
+  * Alumno C – Cervantes Ordóñez, Jireh Eliseo (Implementación del modelo y Pruebas)
   * Alumno D – Cabanillas Solis, Joseph Jossemy (Documentación y demo)
 
 
@@ -203,7 +203,7 @@ pong_ai/
 | Investigación teórica     | Alumno A | Documentar bases teóricas |
 | Diseño de la arquitectura | Alumno B | UML y esquemas de clases  |
 | Implementación del modelo | Alumno C | Código C++ de la NN       |
-| Pruebas y benchmarking    | Alumno B | Generación de métricas    |
+| Pruebas y benchmarking    | Alumno C | Generación de métricas    |
 | Documentación y demo      | Alumno D | Tutorial y video demo     |
 
 ---
