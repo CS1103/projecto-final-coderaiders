@@ -6,13 +6,13 @@
 
 Pong AI es un proyecto académico desarrollado en C++ que tiene como objetivo crear un agente inteligente capaz de aprender a jugar el clásico videojuego Pong a través del entrenamiento con una red neuronal multicapa. A diferencia de soluciones que dependen de librerías externas, este proyecto implementa desde cero:
 
- *Una biblioteca algebraica genérica (Tensor<T, Rank>) similar a NumPy, que permite operar con tensores multidimensionales.
+ * Una biblioteca algebraica genérica (Tensor<T, Rank>) similar a NumPy, que permite operar con tensores multidimensionales.
 
- *Un framework de redes neuronales minimalista, incluyendo capas densas, funciones de activación, cálculo de pérdida y optimización.
+ * Un framework de redes neuronales minimalista, incluyendo capas densas, funciones de activación, cálculo de pérdida y optimización.
 
- *Un entorno de simulación simplificado (EnvGym) que modela las físicas básicas del juego Pong.
+ * Un entorno de simulación simplificado (EnvGym) que modela las físicas básicas del juego Pong.
 
- *Un agente de decisión (PongAgent) que utiliza la red neuronal entrenada para actuar y mejorar en tiempo real.
+ * Un agente de decisión (PongAgent) que utiliza la red neuronal entrenada para actuar y mejorar en tiempo real.
 
 Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno sencillo, sino también reforzar habilidades de diseño modular, patrones de software y programación genérica en C++20.
 
@@ -33,7 +33,7 @@ Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno 
 ### Datos generales
 
 * **Tema**: Redes Neuronales en AI
-* **Grupo**: `group_3_custom_name`
+* **Grupo**: `Coderaiders`
 * **Integrantes**:
 
   * Alumno A – Benalcázar Ferro, José Ignacio (Responsable de investigación teórica)
@@ -71,27 +71,28 @@ Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno 
 * **Objetivo**: Explorar fundamentos y arquitecturas de redes neuronales a través del estudio de múltiples modelos y conceptos principales.
 * **Contenido de ejemplo**:
 
+
   1. Historia y evolución de las NNs.
 
   
-     *1943: McCulloch y Pitts crean el primer modelo de neurona artificial.
+     * 1943: McCulloch y Pitts crean el primer modelo de neurona artificial.
 
 
-     *1958: Rosenblatt presenta el perceptrón, pero es limitado (no resuelve XOR).
+     * 1958: Rosenblatt presenta el perceptrón, pero es limitado (no resuelve XOR).
 
 
-     *1986: Se redescubre el algoritmo de retropropagación, permitiendo entrenar redes multicapa.
+     * 1986: Se redescubre el algoritmo de retropropagación, permitiendo entrenar redes multicapa.
 
 
-     *2010s: Surgen las redes profundas (deep learning), impulsadas por grandes datos y GPUs.
+     * 2010s: Surgen las redes profundas (deep learning), impulsadas por grandes datos y GPUs.
 
 
-     *Hoy: Las NNs se aplican en visión, lenguaje, salud, juegos, etc.
+     * Hoy: Las NNs se aplican en visión, lenguaje, salud, juegos, etc.
 
   2. Principales arquitecturas: MLP, CNN, RNN.
 
-     **MLP (Multilayer Perceptron)**:
-     Redes con varias capas densas, útiles en tareas generales de clasificación y regresión.
+    **MLP (Multilayer Perceptron)**:
+    Redes con varias capas densas, útiles en tareas generales de clasificación y regresión.
 
 
     **CNN (Convolutional Neural Network)**:
@@ -102,6 +103,8 @@ Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno 
     Procesan datos secuenciales como texto o series de tiempo. LSTM y GRU mejoran su memoria.
 
   3. Algoritmos de entrenamiento: backpropagation, optimizadores.
+
+
      **Backpropagation**:
      Calcula cómo ajustar los pesos para reducir el error, usando derivadas y la regla de la cadena.
 
