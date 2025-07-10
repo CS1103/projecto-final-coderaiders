@@ -124,7 +124,7 @@ pong_ai/
 │   ├── test_neural_network.cpp
 │   └── test_tensor.cpp
 └── main.cpp                     # Punto de entrada
-
+```
 
 #### 2.2 Manual de uso y casos de prueba
 
@@ -141,7 +141,7 @@ pong_ai/
 
 ### 3. Ejecución
 
-> **Demo de ejemplo**: Video/demo alojado en `docs/demo.mp4`.
+> **Demo de ejemplo**:
 > Pasos:
 >
 > 1. Preparar datos de entrenamiento (formato CSV).
@@ -184,16 +184,15 @@ pong_ai/
 
 ### 6. Conclusiones
 
-* **Logros**: Implementar NN desde cero, validar en dataset de ejemplo.
-* **Evaluación**: Calidad y rendimiento adecuados para propósito académico.
-* **Aprendizajes**: Profundización en backpropagation y optimización.
-* **Recomendaciones**: Escalar a datasets más grandes y optimizar memoria.
+El proceso de propagación hacia adelante (forward pass) y retropropagación (backward pass) permite ajustar los pesos y sesgos de la red para optimizar su rendimiento.
+Dividir el proyecto en módulos independientes es importante para garantizar un código escalable y fácil de mantener. Sin embargo, podríamos extender el código mediante patrones como Dependency Injection para desacoplar más cada capa.
 
 ---
 
 ### 7. Bibliografía
 
-> *Actualizar con bibliografia utilizada, al menos 4 referencias bibliograficas y usando formato IEEE de referencias bibliograficas.*
+Blog, G. (2020, 5 julio). The Evolution and Core Concepts of Deep Learning & Neural Networks. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2016/08/evolution-core-concepts-deep-learning-neural-networks
+David, D. S. (2024). Aplicación de deep learning para predicción de índices bursátiles extranjeros usando modelos multivariados recurrentes y convolucionales con mecanismos de atención. repositorio.uchile.cl. https://doi.org/10.58011/nymx-3240
 
 ---
 
