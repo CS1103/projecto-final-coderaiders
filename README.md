@@ -4,7 +4,17 @@
 
 ### **Descripción**
 
-> Ejemplo: Implementación de una red neuronal multicapa en C++ para clasificación de dígitos manuscritos.
+Pong AI es un proyecto académico desarrollado en C++ que tiene como objetivo crear un agente inteligente capaz de aprender a jugar el clásico videojuego Pong a través del entrenamiento con una red neuronal multicapa. A diferencia de soluciones que dependen de librerías externas, este proyecto implementa desde cero:
+
+ *Una biblioteca algebraica genérica (Tensor<T, Rank>) similar a NumPy, que permite operar con tensores multidimensionales.
+
+ *Un framework de redes neuronales minimalista, incluyendo capas densas, funciones de activación, cálculo de pérdida y optimización.
+
+ *Un entorno de simulación simplificado (EnvGym) que modela las físicas básicas del juego Pong.
+
+ *Un agente de decisión (PongAgent) que utiliza la red neuronal entrenada para actuar y mejorar en tiempo real.
+
+Este proyecto no solo busca demostrar el aprendizaje por refuerzo en un entorno sencillo, sino también reforzar habilidades de diseño modular, patrones de software y programación genérica en C++20.
 
 ### Contenidos
 
@@ -27,10 +37,9 @@
 * **Integrantes**:
 
   * Alumno A – Benalcázar Ferro, José Ignacio (Responsable de investigación teórica)
-  * Alumno B – 209900002 (Desarrollo de la arquitectura)
-  * Alumno C – 209900003 (Implementación del modelo)
-  * Alumno D – 209900004 (Pruebas y benchmarking)
-  * Alumno E – Cabanillas Solis, Joseph Jossemy (Documentación y demo)
+  * Alumno B – Luciani Dávila, Itzel Yadira Arellys (Desarrollo de la arquitectura y Pruebas )
+  * Alumno C – Cervantes Ordóñez, Jireh Eliseo (Implementación del modelo)
+  * Alumno D – Cabanillas Solis, Joseph Jossemy (Documentación y demo)
 
 
 
@@ -191,8 +200,8 @@ pong_ai/
 | Investigación teórica     | Alumno A | Documentar bases teóricas |
 | Diseño de la arquitectura | Alumno B | UML y esquemas de clases  |
 | Implementación del modelo | Alumno C | Código C++ de la NN       |
-| Pruebas y benchmarking    | Alumno D | Generación de métricas    |
-| Documentación y demo      | Alumno E | Tutorial y video demo     |
+| Pruebas y benchmarking    | Alumno B | Generación de métricas    |
+| Documentación y demo      | Alumno D | Tutorial y video demo     |
 
 ---
 
