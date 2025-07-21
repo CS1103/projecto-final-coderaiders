@@ -1,0 +1,34 @@
+Pong AI - Programación III - 2025-I - UTEC
+
+Este proyecto implementa un agente de inteligencia artificial en C++ que aprende a jugar Pong utilizando una red neuronal entrenada sobre
+datos simulados.
+
+Componentes del sistema
+
+- Tensor<T, R>: biblioteca genérica de álgebra con soporte para arrays multidimensionales, operadores aritméticos y broadcasting.
+- DenseLayer: capa completamente conectada con funciones de activación definidas por el usuario.
+- NeuralNetwork: clase que permite construir y entrenar redes neuronales secuenciales.
+- MSELoss: módulo de cálculo de error cuadrático medio y su gradiente.
+- PongAgent: agente que toma decisiones en función del estado del juego usando el modelo neuronal.
+- EnvGym: entorno simulado que proporciona estados y recompensa para las acciones del agente.
+
+Entrenamiento supervisado
+La red neuronal se entrena utilizando el método:
+net.train(X, Y, epochs, learning_rate);
+
+Donde X es un tensor de entradas, Y es el tensor objetivo, epochs es el número de iteraciones, y learning_rate es la tasa de aprendizaje.
+También se incluye un entrenamiento basado en interacción directa con el entorno usando:
+agent.learnOnPolicy(s, a, r, s_next, gamma, lr);
+
+Donde s es el estado actual, a la acción tomada, r la recompensa obtenida, s_next el siguiente estado, gamma el factor de descuento, y lr la tasa
+de aprendizaje.
+
+Casos de prueba
+
+- test_tensor.cpp: valida creación, broadcasting, reshape, operaciones y transpose del tensor.
+- test_neural_network.cpp: valida el funcionamiento de capas y forward en la red neuronal.
+- test_agent_env.cpp: prueba el uso del agente con el entorno simulado y la integración básica.
+
+Documentación adicional
+
+El archivo BIBLIOGRAFIA contiene las fuentes consultadas relacionadas al aprendizaje supervisado y diseño del sistema.
